@@ -6,19 +6,18 @@ For the last two weeks, I have worked with a team of developers on a project usi
 
 Here are some of the stories that I worked on, including code snippets and descriptions of my process and some of the challenges I faced:
 
-Styling Stories 
 
-Calendar Events Page
+<h3>Calendar Events Page</h3>
 
 This page has two main pieces: The calendar of upcoming shows for the theater, and a table with links to buy tickets. The issue was that the space between these two elements was only present when the user logged in as an administrator. This was a very simple fix with the following code: 
 
-Before
+<h4>Before</h4>
 
 
 ![Calender Events Before Code](CalenderEventsBefore.PNG)
 
  
-After
+<h4>After</h4>
 
 ![Calender Events After Code](calendareventsAfter.png)
 
@@ -27,22 +26,22 @@ Moving the p tag above the conditional “Admin” statement adds the “Create 
  
 The second part of the story was to edit the buttons on the table to match the rest of the website. Here is the final edit: 
  
-Before:
+<h4>Before</h4>
 
 ![Calender Events Button Before Code](CalenderEventsButtonBefore.png)
 
  
-After:
+<h4>After</h4>
 
 ![Calendar Events Button After Code](CalenderEventsButtonAfter.png)
  
 
  
  
-Bug-Report Button
+<h3>Bug-Report Button</h3>
 The purpose of this story was to create a button on the bottom right of every page on the website to report any bugs that the user encounters. The button links to a document where the user can list the bug they found. The button itself uses HTML, CSS, and Javascript. 
  
-HTML:
+<h4>HTML</h4>
 
 ![Bug Report HTML](BugReportHtml.png)
  
@@ -52,7 +51,7 @@ HTML:
  
 As shown above, the Bug Report button has four separate elements: the bug icon, the text ‘Bug Report’, and right and left chevrons. I made each one of those elements into its own anchor so I could style each element independently. The left/right chevrons call oposite JS functions: the right chevron calls ‘disapear_icon’ which makes both the icon and text disapear and disable. The left chevron calls ‘reapear_icon’ to bring back the button. 
  
-CSS:
+<h4>CSS</h4>
 
 ![Bug Report CSS1](BugReportCSSpt1.PNG)
 
@@ -68,7 +67,7 @@ CSS:
 The elements of the button all have different styling but one commonality is the clickable appearance. Do do this I added a ‘hover’ condition to all the elements, so the color changes slightly and the cursor changes when hovered over that element. I also changed the opacity inside the hover effect so the elements become brighter when hovered. 
 
 
-JavaScript:
+<h4>JavaScript</h4>
 
 ![Bug Report JS](BugReportJS.png)
 
@@ -79,9 +78,9 @@ In this story Javascript is used to define the two functions ‘disapear_icon’
 
 
 
-Sponsor Delete Page
+<h3>Sponsor Delete Page</h3>
 
-Before:
+<h4>Before</h4>
 
 ![Sponsor delete before](JL-7339-sponsor_deletehtml_before.png)
 
@@ -91,7 +90,7 @@ Before:
 
 
 
-After:
+<h4>After</h4>
 
 ![Sponsor Delete After](sponsordelete_after.PNG)
 

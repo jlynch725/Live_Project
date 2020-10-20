@@ -13,7 +13,7 @@ Calendar Events Page
 This page has two main pieces: The calendar of upcoming shows for the theater, and a table with links to buy tickets. The issue was that the space between these two elements was only present when the user logged in as an administrator. This was a very simple fix with the following code: 
 
 Before
- 
+ ![Calender Events Before Code](CalenderEventsBefore.PNG)
 
  
 After

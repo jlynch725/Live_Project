@@ -29,8 +29,12 @@ The second part of the story was to edit the buttons on the table to match the r
  
 Before:
 
+![Calender Events Button Before Code](CalenderEventsButtonBefore.png)
+
  
 After:
+
+![Calendar Events Button After Code](CalenderEventsButtonAfter.png)
  
 
  
@@ -39,14 +43,20 @@ Bug-Report Button
 The purpose of this story was to create a button on the bottom right of every page on the website to report any bugs that the user encounters. The button links to a document where the user can list the bug they found. The button itself uses HTML, CSS, and Javascript. 
  
 HTML:
+
+![Bug Report HTML](BugReportHtml.png)
  
  
- 
+![Bug Report Icon](BugReportButtonIcon.png)
  
  
 As shown above, the Bug Report button has four separate elements: the bug icon, the text ‘Bug Report’, and right and left chevrons. I made each one of those elements into its own anchor so I could style each element independently. The left/right chevrons call oposite JS functions: the right chevron calls ‘disapear_icon’ which makes both the icon and text disapear and disable. The left chevron calls ‘reapear_icon’ to bring back the button. 
  
 CSS:
+
+![Bug Report CSS1](BugReportCSSpt1.PNG)
+
+![Bug Report CSS2](BugReportCSSpt2.PNG)
  
  
 
@@ -60,6 +70,8 @@ The elements of the button all have different styling but one commonality is the
 
 JavaScript:
 
+![Bug Report JS](BugReportJS.png)
+
 
 
 
@@ -69,14 +81,19 @@ In this story Javascript is used to define the two functions ‘disapear_icon’
 
 Sponsor Delete Page
 
-Original:
+Before:
+
+![Sponsor delete before](JL-7339-sponsor_deletehtml_before.png)
 
 
 
 
 
 
-After Edits:
+
+After:
+
+![Sponsor Delete After](sponsordelete_after.PNG)
 
 
 

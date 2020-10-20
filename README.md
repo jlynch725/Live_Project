@@ -1,6 +1,6 @@
-# Live_Project
-The Tech Academy Live Project
-Introduction
+# LiveProject
+
+# Introduction
 
 For the last two weeks, I have worked with a team of developers on a project using ASP .NET MVC and Entity Framework. It’s an interactive website for managing the content and productions for a theater company. Our team split into two groups: C# and Javascript, where the back-end stories were handled by the C# students, while I and a few others built/debugged the front-end. The site had already been built, so a majority of the stories I worked on were either adding features, improving existing functionality, or debugging the code. I worked on several front end stories of varying difficulty and learned a tremendous amount about both project management and the dynamics of working with a development team. 
 
